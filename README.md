@@ -10,7 +10,7 @@ BiMA-DTI is a novel deep learning framework that integrates bidirectional Mamba 
 ## Navigation
 | Fold     | In Short                          | Description                 |
 |----------|-----------------------------------|--------------------------|
-|data|Our dataset.|Each dataset contains the experimental Settings E1 (random), E2 (drug cold-start), E3 (protein cold-start), and E4(double cold-start). Among them, each experimental setting of Human, C.elegans, BioSNAP and BindingDB contains 10 random partitions, while TTD only contains one random partition.|
+|data|Our dataset.|Each dataset contains the experimental Settings E1 (random), E2 (drug cold-start), E3 (protein cold-start), and E4(double cold-start). Among them, each experimental setting of Human, C.elegans, BioSNAP and BindingDB contains 10 random partitions, while the TTD only contains the FDA-approved documents after screening.The TTD dataset we processed is publicly available on [Google Drive](https://drive.google.com/drive/folders/1lGhKKy31SSTHLgaBj0gYw9mSwgDrUwdl?usp=sharing), due to the large amount of data, we did not conduct ten random divisions.|
 |fig|Figures in our paper.|Fig1 shows the framework of BiMA-DTI. Fig2-3 are the comparisons of AUROC and AUPRC between BiMA-DTI and the baseline model on BindingDB, BioSNAP and TTD. Fig4-5 are the ablation experimental results of BiMA-DTI. Fig6-7, as well as FigS1-S2, are the visualization studies results.|
 |mambapy|Mamba package.|Downloaded from https://github.com/alxndrTL/mamba.py/tree/main/mambapy|
 
